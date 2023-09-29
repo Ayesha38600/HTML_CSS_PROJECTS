@@ -1,0 +1,337 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Josefin Slab', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(142, 15, 15);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+  
+    
+    
+}
+#home{
+    color: rgb(4, 254, 4);
+}
+nav ul li {
+    list-style: none;
+    margin-right: 40px;
+    
+}
+nav ul li a{
+    margin-inline: 17px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  
+
+}
+nav ul li a:hover{
+    color: rgb(4, 254, 4);
+    border-bottom: 2px solid rgb(238, 234, 234);
+    cursor: pointer;
+    transition: 0.6 ease;
+}
+ .red h2{
+
+    color: rgb(4, 254, 4);
+    
+    font-size: 40px;
+}
+.red{
+    margin-top: -20px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color:  rgb(4, 254, 4);
+    color: rgb(1, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+
+}
+/* .....................mainpage .....................  */
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    color: rgb(193, 37, 6);
+}
+.mainText{
+    margin-top: 110px;
+    margin-left: 40px;
+    
+}
+.mainText h1{
+    font-size: 60px;
+    color: rgb(4, 254, 4);
+    margin-bottom: 9px;
+
+}
+.mainText h2{
+    margin-bottom: 9px;
+}
+.mainText p{
+    margin-bottom: 9px;
+}
+
+/* ...................program ..................  */
+.program{
+    margin-top: 100px;
+}
+.program h1{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+   
+}
+.crd img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    /* border: 1px solid rgb(13, 218, 47); */
+    margin-inline: 10px;
+
+    
+}
+.card img:hover{
+    transition: 0.6s ease;
+    width: 370px;
+    height:430px ;
+    cursor: pointer;
+}
+
+.cardText{
+    margin-top: -120px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#dance{
+    margin-top: 80px;
+    color: black;
+}
+span{
+    color: rgb(4, 254, 4);
+}
+
+/* ...............plan ...............  */
+.plan{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.plan h1
+{
+    text-align: center;
+}
+.cardd{
+    display: flex;
+    justify-content: center;
+   
+    
+  
+}
+.cardd .crdd{
+    /* padding: 30px; */
+    border: 2px solid  rgb(180, 232, 171);
+    margin-inline: 11px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardd i{
+    font-size: 30px;
+    color: green;
+    margin-top: 22px;
+}
+.cardd .crdd h3, h2{
+    color: green;
+    font-weight: 200;
+    margin-top: 22px;
+    
+}
+.cardd .crdd h2{
+    font-size: 35px;
+}
+.crdd button{
+    margin-top: 42px;
+}
+.cardd .crdd p{
+    margin-top: 15px;
+}
+
+.crdd:hover{
+    transition: 0.6s ease;
+    width: 360px;
+    height:420px ;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
+/* ...................blog ................  */
+.blog{
+    margin-top: 90px;
+}
+.blog .head h1{
+    text-align: center;
+}
+.blog .car{
+    justify-content: center;
+    
+}
+.car{
+    display: flex;
+  
+    padding: 30px;
+}
+.car img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.car .blogCard{
+    width: 350px;
+    background-color: rgb(216, 246, 217);
+    margin-inline: 12px;
+    height: 560px;
+    border-radius: 14px;
+    
+}
+.blogCard .blogText{
+    text-align: center;
+    padding: 19px;
+}
+.blogText p{
+    margin-top: 12px;
+}
+.blogText button{
+    margin-top: 12px;
+}
+
+/* ...................contact ......................  */
+
+.contact{
+    margin-top: 90px;
+}
+.contact .head{
+    text-align: center;
+}
+.contactSmall{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.contactSmall img{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: -40px;
+}
+.contactText{
+    margin-top: 80px;
+    color: rgb(4, 254, 4);
+    font-size: 25px;
+}
+
+/* ........................form ...................  */
+.form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formContainer{
+   
+    border: 2px solid green;
+    width:400px ;
+    height: 170px;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 32%;
+    margin-bottom: 40px;
+
+}
+.formContainer  input{
+
+    width: 330px;
+    height: 30px;
+    padding: 4px;
+    background-color: rgb(204, 243, 195);
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    margin-bottom: 12px;
+
+}
+ #we{
+    width: 340px;
+    height: 30px;
+    padding: 4px;
+    border: 2px solid green;
+    margin-top: 12px;
+}
+
+/* <!-- ................footwr ..................  --> */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(203, 247, 232);
+  
+}
+.footerText{
+    padding: 40px;  cursor: pointer;
+}
+.footerText p{
+    padding: 9px;
+}
+.footerText h2{
+    font-weight: 600;
+}
+
+
+/* .............. join now  */
+#sumayya{
+    display: none;
+}
+.loginPage{
+    display: none;
+    width: 250px;
+    background-color: rgb(175, 247, 187);
+    display: block;
+    height: 120px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 430px;
+    
+}
+.loginPage input{
+    width: 190px;
+    height: 30px;
+    margin-top: 12px;
+    border: 2px solid red;
+}
+.loginPage  button{
+    margin-top: 12px;
+    color: white;
+    background-color: red;
+}
+.loginPage  button:hover{
+    background-color: transparent;
+    color: black;
+}
