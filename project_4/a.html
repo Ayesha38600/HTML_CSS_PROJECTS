@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Image Generator</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  canvas {
+    border: 1px solid #333;
+  }
+</style>
+</head>
+<body>
+<canvas id="imageCanvas" width="400" height="400"></canvas>
+<script>
+  const canvas = document.getElementById("imageCanvas");
+  const ctx = canvas.getContext("2d");
+
+  function generateRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r},${g},${b})`;
+  }
+
+  function drawRandomImage() {
+    const width = canvas.width;
+    const height = canvas.height;
+    ctx.fillStyle = generateRandomColor();
+    ctx.fillRect(0, 0, width, height);
+  }
+
+  drawRandomImage();
+</script>
+</body>
+</html>
