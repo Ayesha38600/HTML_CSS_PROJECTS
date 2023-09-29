@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+    
+    /* background-color: rgb(244, 238, 249); */
+}
+body{
+    font-family: 'Merriweather', serif;
+    /* color: white; */
+}
+nav li{
+    list-style: none;
+    margin-left: -10px;
+    
+}
+nav li a{
+    padding: 15px;
+    cursor: pointer;
+  
+}
+.logo{
+    margin-right: 160px;
+    margin-top: -3px; color: rgb(145, 3, 173);
+    font-size: 30px;
+}
+.mainsec{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(244, 238, 249); */
+}
+.me{
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/110/389/desktop-wallpaper-look-face-model-hair-hand-portrait-makeup-face-women.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; padding: 90px;
+ 
+    object-fit: cover;
+ 
+}
+.mainsec img{
+    width: 100%;
+    height: 500px;
+    margin-top: -10px;
+    margin-right: 110px;
+    object-fit: cover;
+
+
+}
+button{
+    width: 160px;
+    height: 40px;  margin-top: 10px;
+    background-color: rgb(70, 4, 70);
+    color: rgb(244, 238, 249) ;
+}
+button:hover{
+    transition: 0.5s ease-out;
+    background-color:transparent ;
+    border: 2px solid rgb(70, 4, 70);  color: rgb(70, 4, 70);
+
+}
+.mtext{
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 20px;color: rgb(64, 5, 83);
+}
+.mtext h1{
+    color: rgb(64, 5, 83);
+     font-size: 60px;
+}
+.mtext p{
+    margin-top: 10px;
+}
+.sec2{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+   
+}
+.sec2 img{
+    width: 250px;
+    height: 300px; margin-inline: 12px;
+    object-fit: cover;
+
+}
+#ag{
+    margin-top: -40px;
+    margin-right: 200px;
+}
+.sec2text{
+    margin-top: 20px;
+    padding: 32px;
+   margin-right: -120px;
+    margin-left: 150px;
+    
+}
+.sec2text h1{
+    margin-top: 11px;
+    
+}
+.sec2text p{
+    margin-top: 11px;
+
+}
+#ay{
+    margin-left: 240px;
+}
+#egg{
+    margin-left: 42.5%;
+}
+.heading h1{
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(183, 89, 183);
+    left: 0;
+    right: 0;width: 25%;
+}
+.crd img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.service{
+    margin-top: 150px;
+    /* display: flex; */
+    justify-content: center; margin-bottom: 80px;
+}
+.card{
+      display: flex;
+    justify-content: center;
+    margin-inline: 240px;
+}
+.crdtext{
+    text-align: center;
+    padding: 20px;
+
+}
+.crdtext p{
+    font-size: 11px;
+}
+.crdtext h2{
+    font-size: 18px;
+}
+.discount{
+    text-align: center;
+    background-color: rgb(244, 238, 249);
+    padding: 110px;
+}
+.relax{
+    justify-content: center;
+    display: flex;
+    opacity: 1;
+    padding: 150px;
+}
+.feature{
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/110/389/desktop-wallpaper-look-face-model-hair-hand-portrait-makeup-face-women.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; padding: 90px;
+ 
+    object-fit: cover;  height: 90vh;
+}
+
+.relax1 p{
+    opacity: 1;
+    color: rgb(2, 2, 97);
+}
+.relax1 h3{
+    opacity: 100;
+    margin-bottom: 10px;
+}
+.relax1 i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.relax1{
+    border: 1px solid black;
+    margin-inline: 12px;
+    padding: 20px;
+    height: 150px;
+    border-radius: 3%; text-align: center;background-color: rgb(70, 4, 70);
+    color: rgb(255, 255, 255);
+}
+.relax1 p{
+    color: rgb(255, 255, 255);
+}
+.relax1:hover{
+background-color: rgb(99, 11, 99);
+color: rgb(255, 255, 255);
+
+}
+.relax1:hover > h3{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;color: rgb(255, 255, 255);
+}
+.relax1:hover > p{
+    text-align: center;
+  
+   color: rgb(255, 255, 255);
+}
+.hea h2{
+    margin-left: 10%; color: rgb(91, 1, 99);
+    font-size: 30px;
+border-bottom: 1px solid rgb(68, 1, 74); 
+margin-bottom: 5px;
+
+}
+#agg{
+    margin-top: -32px;
+    margin-right: 190px;
+}
+#ayy{
+    margin-left: 480px;
+}
+#usma{
+    color: rgb(138, 3, 165);
+    margin-top: 70px;
+}
+
+
+
+
+
+
+/* styles.css */
+.testimonial-container {
+    /* margin-top: 20%; */
+    /* margin-top: 70%; */
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.testimonial {
+    display: none;
+}
+
+.testimonial img {
+    width: 700px;
+    object-fit: cover;
+    height: 500px;
+  margin-top: 10%;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.last {
+  justify-content: center;
+  display: flex;
+
+  background: url("https://e1.pxfuel.com/desktop-wallpaper/110/389/desktop-wallpaper-look-face-model-hair-hand-portrait-makeup-face-women.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; padding: 90px;
+
+  object-fit: cover;
+  color: blueviolet;
+  height: 60vh;
+  margin-top: 40px;
+}
+.last i{
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.last i:hover{
+    color: rgb(131, 98, 161);
+}
+.c p{color: blueviolet;
+    margin-top: 30%;
+    margin-left: -190px;
+}
+
+
+
+
+
+
+
+
+/* ...........................................team .....................  */
+.teamdiv{
+    width: 80px;
+    height: 80px;border-radius: 50%;
+    background-color: rgb(245, 236, 254);
+    padding: 20px;
+
+}
+.teamdiv img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px; object-fit: cover;
+   
+
+}
+.leti{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.tree{
+    text-align: center; color: rgb(104, 11, 166);
+    margin-top: 140px; 
+    margin-left: 45%;
+}
+.tree h1{
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(183, 89, 183);
+    left: 0;
+
+    right: 0;width: 20%;
+}
+.lina{
+    margin-inline: 12px;
+}
+.team{
+    display: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.txt{
+    padding: 60px;
+    text-align: center; color: rgb(0, 0, 0);
+}
+.txt p{
+    color: rgb(0, 0, 0);
+}
+.bigteam{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(245, 236, 254);
+    margin-top: -70px;
+}
+.cat{
+    /* margin-left: -80%; */
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    /* margin-top: -40px; */
+}
+
+
+
+
+/* .....................................................  */
+
+h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+p {
+    color: #777;
+}
+/* ........................................  */
+
+.why img{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 10%;
+}
+.why{
+    display: none;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+}
+.textt{
+    margin-top: 70px;
+    padding: 30px;
+    margin-right: 20%;
+}
+.textt p{
+    margin-top: 12px;
+}
+.textt h1{
+    margin-top: 12px;
+}
+.textt h1{
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(183, 89, 183);
+    left: 0;
+
+    right: 0;width: 50%;
+}
+
+.see{
+    text-align: center;
+}
+.see h1{
+    margin-left: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(183, 89, 183);
+    left: 0;
+
+    right: 0;width: 20%;
+}
+
+.gallery img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    margin-inline: 12px;
+
+}
+
+.gallery{
+    
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.img1{
+    margin-top: 20px;
+}
+
+
+/* .....................  */
+.mainnnn{
+    display: none;
+}
+.why{
+    display: none;
+}
+#tu{
+    display: none;
+}
+.gall{
+    display: none;
+}
+#turay{
+    display: none;
+}
+#tura{
+    display: none;
+}
+#tur{
+    display: none;
+}
+#zubi{
+    display: none;
+}
+#mahir{
+    display: none;
+}
+#teaw{
+    display: none;
+}
+
+#kinu{
+    color: red;
+}
+
+/* ............................  */
+.zoo img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-inline: 12px;
+}
+.zubaria{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.zootext{
+    text-align: center; width: 300px;
+    background-color: rgb(111, 9, 142);  margin-inline: 12px;
+    color: white;
+    /* padding: 20px; */
+    margin-top: -15px;
+    margin-bottom: 12px;
+}
+.zootext p{
+    color: white;
+    margin-top: 12px;
+}
+
+/* ........contact ..................................................  */
+.contain{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+color: white;}
