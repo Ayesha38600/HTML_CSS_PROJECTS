@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    padding: 13px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    margin-top: -90px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+body{
+    background-color: bisque;
+}
+#imgs{
+    margin-right: 40px;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+.mtxt{
+    padding: 90px;
+    margin-top: 20px;
+}
+.mtxt h1{
+    font-size: 60px;
+}
