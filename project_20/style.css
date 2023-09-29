@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;font-family: 'Mooli', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+    box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.logo{
+    display: flex;
+
+}
+nav ul{
+    margin-top: 8px;
+    margin-left: 16px;
+}
+nav ul li {
+    list-style: none;
+}
+ul li a{  cursor: pointer;
+    padding: 20px;
+    font-size: 19px;
+}
+.logo h1{
+    font-size: 25px; cursor: pointer;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    margin-right: 20px;
+}
+.smallCard img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover; margin-inline: 19px;
+}
+
+.crd{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+.card{
+    margin-top: 60px;
+}
+.text{
+    text-align: center;
+ 
+}
+.text:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;margin-inline: 19px;
+    padding: 19px;
+    margin-top: -4px;
+}
+.footer{
+    padding: 17px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:216px ;
+    margin-right:216px ;
+    margin-bottom: 30px;
+}
+.footer .icons i{
+margin-inline: 10px;
+font-size: 20px;
+}
+.footer .icons i:hover{
+    color: palevioletred;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}

@@ -1,0 +1,100 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: skyblue;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+   
+}
+nav ul{
+    display: flex; padding: 15px;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    margin-inline: 20px;
+    font-size: 18px;
+    margin-right: 11px;
+}
+.logo{
+margin-left: 12px;
+font-size: 18px;
+}
+.btn {
+    padding: 4px 20px;
+    background-color: rgb(7, 199, 49);
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.btn:hover{border: 2px solid skyblue;
+    background-color: transparent;
+    
+}
+ul li a:hover{
+    color: rgb(152, 227, 152);
+    border-bottom: 2px solid white;
+     cursor: pointer;
+}
+ul li .active{
+    color: rgb(152, 227, 152);
+    border-bottom: 2px solid white;
+}
+
+.icon{
+    align-items: center;
+    margin-right: 12px;
+    font-size: 30px;
+    display: none;
+
+}
+
+@media only screen and (max-width : 600px){
+
+    /* @media only screen and (width <= 600px) ye v use krskty is tra sy v  */
+    nav ul{
+        display: none;
+       
+    }
+    .icon{
+        display: flex;
+    }
+    .showData{
+        display: flex;flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        background-color: rgb(4, 103, 103);
+        width: 100%;
+        text-align: center;
+padding: 0px;
+height: 240px;
+gap: 12px;
+    }
+    .btn{
+    padding: 5px 30px;
+    } 
+    
+}
+
+
+
+/* (orientation:portrait) ye jab apply hoti h jab width< height  */
+
+/* @media only screen and (orientation:portrait){                 
+    body{
+        background-color: black;
+       
+    }
+} */
