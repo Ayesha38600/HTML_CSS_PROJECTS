@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+}
+.navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+    color: white;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.navbar{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid rgb(0, 4, 255);
+    background-color: blue;
+    margin-top: 0px;
+   
+}
+.navbar ul{
+    padding: 0px;
+    text-align: center;
+
+}
+.container{
+    justify-content: center;
+    text-align: center;
+}
+span{
+    color: red;
+}

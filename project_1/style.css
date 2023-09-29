@@ -1,0 +1,122 @@
+body{
+    background-image: url("perfume.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Cambay', sans-serif;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    /* padding-right:10px ;
+    margin-top: -200px; */
+    padding: 10px;
+}
+    .navbar ul li:hover{
+        border-bottom: 2px solid white;
+        color: rgb(0, 255, 85);
+    }
+
+.navbar ul{
+    padding-right: 0px;
+    display: flex;
+    float: right;
+    margin-top: -190px;
+    list-style: none;
+    width: 470px;
+}
+#head{
+margin-left: 30px;
+
+color: wheat;
+width: 1000px;
+
+
+}
+span{
+    color: red;
+}
+button{
+    border: 2px solid white;
+    background: none;
+    color: wheat;
+    margin-left: 10px;
+    padding: 12px;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    float: left;
+
+    padding: 20px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    border-radius: 20px;    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    float: left;
+border-radius: 20px;    
+    padding: 20px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    float: left;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;    
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    float: left;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;    
+}
+.conte{
+    justify-content: space-evenly;
+
+    padding: 100px;
+    border-radius: 20px;
+
+}
+.conte p{
+    color: white;
+    justify-content: space-evenly;
+}
+#class:hover{
+    color: black;
+    background-color: red;
+}
+#class h1:hover{
+    color: white;
+}
+#class{
+    /* margin-right: 10px; */
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+
+}
+#class h1{
+    text-align: center;
+    color: red;
+}

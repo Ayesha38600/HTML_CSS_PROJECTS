@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo"><img src="logo.png" alt=""></div>
+    <div class="head"> <h1> THAT'S WHAT <br> <span>I LIKE</span></h1>
+    <div class="para">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Nemo nam ab, <br>optio eos ut facilis est qui debitis cumque fuga! Lorem ipsum dolor sit <br>
+        amet consectetur, adipisicing elit. Libero, labore! Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit. Autem, eos!</div> 
+    <button>view All Products</button>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Whats's New</a></li>
+            <li><a href="#">NewSlotter</a></li>
+            <li><a href="#">Contact</a></li>
+            <!-- <div class="pepsi"><img src="pepsi001.png" alt=""></div> -->
+        </ul>
+        
+    </nav>
+    <div class="pepsi"><img src="pepsi001.png" alt="" class="pep"></div>
+<div class="pngs">
+    <img src="facebook.png" alt=""  class="social" id="facebook">
+    <img src="twitter.png" alt=""  class="social">
+    <img src="instagram.png" alt=""  class="social">
+</div>
+ <div class="log">
+    <img src="pepsi001.png"  onclick="imgSlider(pepsi001.png)">
+    <img src="pepsi002.png" alt="">
+    <img src="pepsi003.png" alt="">
+
+ </div>
+    
+    <script >
+        function imgSlider( anything ) {
+            document.querySelector(".pep").src * anything;
+
+            
+        }
+    </script>
+</body>
+</html>
