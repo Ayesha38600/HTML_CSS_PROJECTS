@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+body{
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    box-shadow: 4px 2px 50px 6px rgb(207, 200, 200);
+    padding: 22px;
+    /* border-bottom: 2px solid black; */
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav ul li a{
+    padding: 23px; 
+    cursor: pointer;
+    box-shadow: 3px 3px 20px rgb(255, 255, 255);
+    margin-inline: 12px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.logo{
+    font-size: 27px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    color: white;
+}
+.main img{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 4px 2px 50px 6px rgb(207, 200, 200);
+}
+.main .mainText{
+    margin-top: 50px;
+}
+.mainText h1{
+    font-size: 60px;
+    margin-top: 11px;
+}
+.mainText h2{
+    color: rgb(246, 0, 0);
+    margin-top: 11px;
+}
+.mainText p{
+    margin-top: 11px;
+}
+.mainText button{
+    width: 190px;
+    font-size: 18px;
+    background-color: red;
+    padding: 20px;
+    margin-top: 11px;
+    font-family: 'Work Sans', sans-serif;
+}
+.mainText button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;}
+ .heading h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+span{
+    color: red;
+}
+#homes{
+    color: red;
+}
+.card{
+    margin-bottom: -190px;
+}
+
+.bigCard {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 700px;
+  
+    color: white;
+    margin-left: 25%;
+    /* background-color: white;
+    border: 2px solid white; */
+    
+}
+.miniCrd img{
+    width: 300px;
+    display: flex;
+    margin-inline: 12px;
+    justify-content: center;
+ 
+}
+.miniCrd img:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    
+}
+.miniCrd{
+   margin-top: 40px;
+    padding: 22px;
+}
+.miniCrd .crdText{
+  
+    height: 120px;
+    padding: 12px;
+    width: 250px;
+    border: none;
+}
+#bcrd{
+    margin-top: -19%;
+}
+.blogs{
+    
+    color: white;
+}
+.minBlog{
+    display: flex;
+    justify-content: center;
+   margin-top: 60px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(212, 0, 0);
+    width: 1200px;
+    margin-left: 10%;
+
+
+    background-color: white;
+  
+
+}
+.blogText button{
+    color: rgb(0, 0, 0);
+}
+.blogText{
+    padding: 22px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.blogMaterial{
+   text-align: center;
+ 
+    margin-inline: 15px;
+    margin-bottom: 12px;
+  
+}
+#twin{
+    background-color: white;
+}
+.blogText img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.blogText button{
+    width: 190px;
+    font-size: 18px;
+    background-color: red;
+    padding: 20px;
+    margin-top: 11px;
+    font-family: 'Work Sans', sans-serif;
+}
+.blogText button:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid red;
+    cursor: pointer;
+}
+.track{
+    color: white;
+}
+.ty{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+.ty i{
+    font-size: 100px;
+    color: red;
+}
+.ty i:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.ty button{
+    width: 230px;
+    font-size: 18px;
+    background-color: red;
+    padding: 20px;
+    margin-top: 11px;
+    font-family: 'Work Sans', sans-serif;
+}
+.ty button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.ty img{
+    width: 600px;
+    height: 400px;
+}
+.trackText{
+    padding: 30px;
+}
+/* <!-- order tracking page ...........................  --> */
+#ki{
+    display: none;
+}
+.live{
+   
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 50px;
+}
+.live img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.live h2,h3 {
+    font-family: 30px;
+    margin-top: 12px;
+}
+.live p{
+    margin-top: 12px;
+}
+
+.footer{
+    display:flex ;
+    justify-content: space-around;
+    background-color: white;
+    padding: 55px;
+    margin-top: 77px;
+    color: black;
+
+ }
