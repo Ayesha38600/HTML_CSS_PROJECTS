@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 100vh;
+    padding: 40px;
+    
+}
+.logo{
+    display: flex;
+    
+}
+.logo h1{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 12px;
+}
+.logo i{
+    font-size: 80px;
+    color: aqua;
+}
+.logo i:hover{
+    color: rgb(119, 76, 228); cursor: pointer;
+}
+nav ul li{
+    padding: 20px; list-style: none;
+}
+.card{
+    float: right;
+    margin-top: -810px;
+    margin-right: 40px;
+}
+.card button{
+    width: 100px;
+    background-color: rgb(36, 13, 13);
+    padding: 11px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+.cmain img{
+    width: 250px;
+    height: 400px;
+    object-fit: cover; margin-inline: 12px;
+}
+.c1{
+    display: flex;
+    justify-content:center;
+    margin-top: -700px;
+    margin-left: 430px;
+   
+}
+
+.cmaintext{
+    text-align: center;
+    background-color: aqua;
+    margin-inline: 12px;
+    margin-top: -10px;
+    padding: 20px;
+}
