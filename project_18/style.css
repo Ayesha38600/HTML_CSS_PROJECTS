@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Mooli', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    
+}
+nav ul li a{
+    margin-inline: 16px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+.logo{
+    font-size: 17px;
+    margin-left: 40px;
+
+}
+span{
+    color: aqua;
+}
+.mainPage{
+    background: url("https://t3.ftcdn.net/jpg/03/37/02/08/240_F_337020871_2XJRtJkWELNCOV8IpU1QtclGLm3sGEX9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgb(101, 7, 7);
+}
+.mainText{
+    margin-top: 210px;
+    margin-left: 150px;
+    color: white;
+    
+}
+.mainText h1{
+    font-size: 50px;
+}
+.mainText p{
+   line-height: 25px;
+   margin-top: 17px;
+}
+button{
+    background-color: aqua;
+    outline: none;
+    border: none;
+    padding: 12px 20px;
+    color: rgb(56, 39, 39);
+    border-radius: 4px;
+    margin-top: 17px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.small{
+    height: 583px; border-top-left-radius: 10%;
+    background-color: rgb(255, 255, 255);box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pagesec{
+    /* text-align: center; */
+}
+.small img{
+    width: 380px;
+    height: 500px;
+    object-fit: cover;
+    border-top-left-radius: 10%;
+    /* transform: scale(1); */
+   
+}
+.small img:hover{
+    /* transform: scale(1.04); */
+}
+.crd{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; gap: 12px; 
+    /* transform: scale(1.04); */
+}
+.char{
+    justify-content: space-between;
+    display: flex;
+    padding: 11px;
+}
+i{
+    color: aqua;
+}
+.dollar{
+    justify-content: space-between;
+    display: flex;
+   margin-left: 11px;
+    font-size: 20px;
+}
+.dollar i {
+    background-color: aqua;
+    color: rgb(255, 255, 255);
+    padding:7px 10px;
+}
+.personal{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+#img{
+    border-radius: 0px;
+}
+.furniture img{
+    width: 70%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.furniture{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 100px;
+}
+.text{
+    padding: 100px;
+}
+.text h2{
+    margin-top: 12px;
+    font-size: 30px;
+}
+#para{
+    color: aqua;
+
+}
+.text p{
+    line-height: 25px;
+}
+.brands {
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+.brands h2{
+    margin-top: 11px;
+    margin-bottom: 70px;
+}
+.brands .logos img{
+    width: 180px;
+    /* object-fit: cover; */
+    padding: 40px;
+    height: 180px; 
+    filter: grayscale(100%);
+}
+.brands .logos img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+.news{
+
+        background: url("https://t3.ftcdn.net/jpg/03/37/02/08/240_F_337020871_2XJRtJkWELNCOV8IpU1QtclGLm3sGEX9.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 50px;
+
+}
+input{
+    padding: 13px 0px;
+    width: 280px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-right: -12px;
+}
+.footer{
+    padding: 17px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:216px ;
+    margin-right:216px ;
+    margin-bottom: 30px;
+}
+.footer .icons i{
+margin-inline: 10px;
+font-size: 20px;
+}
+.footer .icons i:hover{
+    color: palevioletred;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
